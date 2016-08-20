@@ -83,5 +83,6 @@ git push -u origin master第一次推送master分支的所有内容；
 ***这是因为Git使用SSH连接，而SSH连接在第一次验证GitHub服务器的Key时，
 需要你确认GitHub的Key的指纹信息是否真的来自GitHub的服务器，输入yes回车即可。
 ---------------------------------------
-
+命令git clone克隆一个本地库：
+$ git clone git@github.com:dbg8685/test.git
 
